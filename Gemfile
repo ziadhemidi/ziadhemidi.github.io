@@ -9,6 +9,7 @@ require 'json'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     #gem 'github-pages', versions['github-pages']
+    gem "json"
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
