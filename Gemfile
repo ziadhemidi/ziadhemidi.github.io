@@ -11,6 +11,7 @@ group :jekyll_plugins do
     #gem 'github-pages', versions['github-pages']
     gem "json"
     gem 'jekyll'
+    gem 'kramdown-parser-gfm', '~> 1.1'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
