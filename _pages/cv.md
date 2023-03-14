@@ -1,8 +1,8 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: Curiculum Vitae
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
+cv_pdf: Ziad_CV.pdf
 ---
