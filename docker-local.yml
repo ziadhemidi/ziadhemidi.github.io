@@ -3,6 +3,7 @@ version: "3"
 services:
   jekyll_custom:
     build: .
+    platform: linux/amd64
     image: al-folio-local-docker
     container_name: al-folio-local-website
     command: bash -c "
