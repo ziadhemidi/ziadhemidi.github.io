@@ -1,10 +1,10 @@
 FROM bitnami/minideb:latest
-Label MAINTAINER Amir Pourmand
+LABEL MAINTAINER Amir Pourmand
 RUN apt-get update -y
 # add locale
 RUN apt-get -y install locales
 # Set the locale
-RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
+RUN sed -i '/en_US.UTF-8/s/^ # //g' /etc/locale.gen && \
     locale-gen
 ENV LANG en_US.UTF-8  
 ENV LANGUAGE en_US:en  

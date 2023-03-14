@@ -12,11 +12,3 @@ services:
       - 8080:8080
     volumes:
       - .:/srv/jekyll
-
-
-
-      # services:
-      # myservice:
-      #     platform: linux/amd64
-      # myotherservice:
-      #     platform: linux/amd64
