@@ -1,17 +1,7 @@
 source 'https://rubygems.org'
-
-
-require 'json'
-# require 'open-uri'
-# versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-
-
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    #gem 'github-pages', versions['github-pages']
-    gem "json"
     gem 'jekyll'
-    gem 'kramdown-parser-gfm', '~> 1.1'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
